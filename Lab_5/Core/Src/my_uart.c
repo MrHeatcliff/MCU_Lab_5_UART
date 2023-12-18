@@ -25,7 +25,10 @@ bool uart_IsFlag(void) {
 void uart_ResetFlag(void) {
 	buffer_flag = 0;
 }
-
+/*
+ * @brief: Check if we have receive a command by check 2 flag start and end
+ * @param: none
+ * @retval: 1 if we have command, 0 if we dont*/
 bool check_command(void){
 	if(flag_start && flag_end){
 		if(start_cmd_index <= end_cmd_index){
@@ -42,6 +45,10 @@ bool check_command(void){
 	}
 	return 0;
 }
+/*
+ * @brief: function to get command and reset index
+ * @param: none
+ * @retval: pointer to command array*/
 char* uart_GetCommand(void) {
 	for(unsigned i = 0; i <= end_cmd_index; i++){
 		buffer[i] = '\0';
