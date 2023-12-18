@@ -1,0 +1,3 @@
+my_fsm.c:29:6:command_parser_fsm	8	static
+my_fsm.c:46:6:uart_communiation_fsm	8	static
+my_fsm.c:71:10:fsm_value	4	static

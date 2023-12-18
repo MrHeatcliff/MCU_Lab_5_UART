@@ -1,0 +1,2 @@
+my_task.c:10:6:task_toggle_led	8	static
+my_task.c:14:6:task_send_adc_value	112	static

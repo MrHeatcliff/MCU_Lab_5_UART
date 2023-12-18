@@ -1,0 +1,6 @@
+my_uart.c:22:6:uart_IsFlag	4	static
+my_uart.c:25:6:uart_ResetFlag	4	static
+my_uart.c:29:6:check_command	16	static
+my_uart.c:45:7:uart_GetCommand	16	static
+my_uart.c:56:6:uart_init	8	static
+my_uart.c:60:6:HAL_UART_RxCpltCallback	16	static

@@ -1,0 +1,2 @@
+my_adc.c:11:10:adc_get_value	16	static
+my_adc.c:17:6:adc_init	8	static

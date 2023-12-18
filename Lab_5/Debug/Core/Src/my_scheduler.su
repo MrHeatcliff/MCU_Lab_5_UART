@@ -1,0 +1,7 @@
+my_scheduler.c:32:6:sch_init	8	static
+my_scheduler.c:35:6:HAL_TIM_PeriodElapsedCallback	16	static
+my_scheduler.c:49:6:sch_add_task	32	static
+my_scheduler.c:82:6:sch_update	4	static
+my_scheduler.c:94:13:sch_delete_task	16	static
+my_scheduler.c:106:6:sch_dispatch	16	static
+my_scheduler.c:122:6:sch_remove_task	24	static
